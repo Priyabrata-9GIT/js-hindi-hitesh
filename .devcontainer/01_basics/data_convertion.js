@@ -23,5 +23,13 @@ console.log(boolnu)
 //"fifwhf"=>true
 let somenum=84
 let word=String(somenum)
-console.log(word);
-console.log(typeof(word));
+//console.log(word);
+//console.log(typeof(word));
+console.log("hari" + 2);
+console.log("2"+6+7);
+console.log(6+7+"2")
+console.log(+ true)
+console.log(+ "");
+let num=2;
+console.log(num++);
+console.log(++num);
