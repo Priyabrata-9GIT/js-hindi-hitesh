@@ -3,6 +3,7 @@ const repoCount = 20;
 console.log(name + repoCount + "value");
 console.log(`Hello my name is ${name.toUpperCase()} and my rep count is ${repoCount} `)
 const gameName =  new String("Priyabrata")
+console.log(gameName);
 //you canndeclare this way also//
 console.log(gameName[0]);
 console.log(gameName.__proto__);
