@@ -12,6 +12,18 @@ let isLogin= false
 //undefined
 console.log(typeof null)
 console.log(typeof undefined)
+const Id=Symbol('123')
+const anId= Symbol('123')
+console.log(Id===anId);
+const heros=["shakti","Agni","Bayu"]
+let myObj={
+       name:"Priya",
+       age:22,
+}
+const myFunction= Function(){
+       console.log("Hello World");
+}
+
 /* Return type of variables in JavaScript
 1) Primitive Datatypes
        Number => number
@@ -26,3 +38,13 @@ console.log(typeof undefined)
        Arrays  =>  object
        Function  =>  function
        Object  =>  object */
+
+
+/*datatypes are based on memory allocation
+Primitive datatypes->  call by value (string,number,boolean,null,undefined,BigInt,symbol) ->Stack memory
+
+Reference/Non primitive data types -> call by reference ( array,object, function) -> heap memory
+
+JavaScript is a dynamically typed language. This means that you don't need to specify the data type of a variable when you declare it.*/
+
+       
