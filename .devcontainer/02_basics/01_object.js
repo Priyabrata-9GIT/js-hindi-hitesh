@@ -85,3 +85,26 @@ console.log(Object.keys(regularuser));
 console.log(Object.values(regularuser));
 console.log(Object.entries(regularuser));
 console.log(regularuser.hasOwnProperty('email'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "678",
+    instructor:"hitesh"
+}
+
+const {instructor:pandita} = course
+//console.log(instructor);
+console.log(pandita);
+//API In Short cut
+{
+    "name": "Bapu",
+    "cousename":"js",
+    "price":"free"
+
+}
+//it can be like array also
+[
+    {},
+    {},
+    {}
+]
