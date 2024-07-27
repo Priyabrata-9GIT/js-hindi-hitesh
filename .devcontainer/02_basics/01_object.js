@@ -78,7 +78,7 @@ const user = [
         id:3,
         mail:"mc@78.com"
     }
-]
+]    
 //console.log(user[1].mail);
 console.log(regularuser);
 console.log(Object.keys(regularuser));

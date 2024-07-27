@@ -53,17 +53,17 @@ function secondvalue(getarr){
 //console.log(secondvalue(newarr));
 
 const user = {
-    usernmae:"priya",
+    username:"priya",
     id: 84
 }
-function handleobject(user){
-    console.log(`username is ${user.username} and price is ${user.id}`);
+function handleobject(kuchv){
+    console.log(`username is ${kuchv.username} and price is ${kuchv.id}`);
 
 }
-//handleobject(user)
+handleobject(user)
 
-handleobject({
+/*handleobject({
     username:"josua",
     id: 844
-}) 
+}) */
     

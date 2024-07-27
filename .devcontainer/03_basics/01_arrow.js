@@ -11,7 +11,7 @@ const user = {
 //user.welcomeMsg();
 //user.username="Priya";
 //user.welcomeMsg();
-//console.log(this);// empty object
+//console.log(this);// empty object{}
 
 /*function chai(){
     let username = "Priya"
@@ -22,16 +22,17 @@ chai()*/
 /*const chai = function(){
     let username = "hitesh"
     console.log(this.username);
-    console.log(this);
+    //console.log(this);
 }
 chai(); */
 
-const chai = () => {
+const chai = (NUM) => {
     let username= "Priya"
     console.log(this.username);
+    console.log(`Price of the tea is ${NUM}`);
     console.log(this);
 }
-chai()
+chai(6)
 
 //arrow function 
 const addtwo = (num1,num2)=>{
@@ -40,8 +41,8 @@ const addtwo = (num1,num2)=>{
 console.log(addtwo(3,4));
  //implecet return
 
-// const addto = (no1 , no2) => (no1+no2) //cant use curly braces in place of paranthesis
- 
+const addto = (no1 , no2) => (no1+no2) //cant use curly braces in place of paranthesis
+ console.log(addto(7,8));
 //const addth = (no1,no2) => {
  //   username:"ramesh"
     
