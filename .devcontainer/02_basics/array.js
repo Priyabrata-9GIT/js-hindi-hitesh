@@ -1,10 +1,10 @@
 // array
 const myArr = [1, 2 ,4 ,5, 6, 7];
-/*console.log(myArr);
-console.log(myArr[0]);
+//console.log(myArr);
+//console.log(myArr[0]);
 // in js arr performs shallow copy(same reference point)
 // in js arr can  contain more than one type of variables
-let myarr = [1,4, "hii","ballon" ,8.4]
+/*let myarr = [1,4, "hii","ballon" ,8.4]
 console.log(myarr);
 // arr can be declare as this also
 const myarr2 = new Array(3,5,6,7,9)
@@ -27,14 +27,14 @@ console.log(newArr);
 console.log(typeof newArr);
 */
 //slice and splice
-/*
+
 const arr1 = myArr.slice(1,3)
 console.log("A", myArr);
 console.log(arr1);
-const arr2 = myArr.splice(1,3)
+const arr2 = myArr.splice(2,4)
 console.log("B", myArr);
 console.log(arr2);
-*/ 
+
 
 /*
 const marvel = ["thor","hulk"];
