@@ -6,7 +6,7 @@ accCity=" Bhubaneswar"
 console.log(accID);
 
 accEmail="luddly@1234.com"
-accPassword="21012003"
+accPassword="2101200453"
 accCity="Bengaluru"
 let accState
 console.table([accID,accEmail,accPassword,accCity,accState]);
