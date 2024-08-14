@@ -2,6 +2,11 @@
 ## project link
 [click here](http://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
 # Solution code
+
+## project 1
+
+``` javascript
+console.log("priya")
 const buttons = document.querySelectorAll('.button');
 //console.log(buttons)
 const body = document.querySelector('body')
@@ -22,13 +27,10 @@ buttons.forEach(function(keys){
   })
 })
 
-## project 1
-
-``` javasript
-console.log("priya")
 
 ```
 ## project 2
+``` javascript
 let random = parseInt(Math.random()* 100 +1)
 const userInput = document.querySelector('#guessField')
 const submit = document.querySelector('#subt')
@@ -128,5 +130,7 @@ function endgame(){
 
    });
 }
+
+```
 
 
